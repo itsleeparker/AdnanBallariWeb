@@ -1,0 +1,180 @@
+/******TAG SELECTORS*******/
+
+body{
+    margin:0%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color:#40514E;
+}
+h1{
+    color:#66BFBF; 
+    font-family: 'Sacramento', cursive;
+    font-size: 5.16em;
+    line-height: 2;
+}
+
+h2{
+    color: #66BFBF;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding:1em;
+}
+h3{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+hr{
+    border-color:#EAF6F6;
+    border-style: dotted;
+    border-width: 0.5em;
+    border-left:none;
+    border-right: none;
+    border-bottom: none;
+    margin-bottom: 1.7em;
+    width: 5em;
+}
+
+p{
+    line-height: 2;
+}
+/******CLASS SELECTORS******.*/
+
+.headingClass{
+    margin-top: 0%;
+    background-color: #E4F9F5;
+}
+.nameClass{
+     display:inline-block;
+     padding-top: 100px;
+     position:relative;
+     width:100%;
+}
+
+.middle-container{
+    margin:6.25em;
+}
+.bottom-container{
+    min-height:10em;
+    background-color: #66BFBF;
+    margin:0;
+    position: relative;
+    padding-bottom: 1.5em;
+    left:0;
+    line-height: 2;
+    right:0;
+}
+
+.top-cloud {
+    position: absolute;
+    right:300px;
+    top:50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left:250px;
+    bottom:8em;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+
+.skill-row{
+     width:50%;
+     margin: 6.25em auto 6.25em auto;
+     text-align: left;
+     line-height: 2;
+}
+
+.skills-image{
+    width:25%;
+    margin-right: 30px; 
+}
+
+.c-prog{
+    float:left;
+    width:25%;
+    margin-right: 1.825em; 
+}
+.web-development{
+    float:right;
+    width:25%;
+    margin-left: 1.825em; 
+}
+
+.linux{
+    float:left;
+    width:25%;
+    margin-right: 1.825em; 
+
+}
+
+.footer-link{
+        color:#11999E;   
+        font-family: 'Montserrat' , sans-serif;
+        font-weight: bolder;
+        position: relative;
+        top:3.7em;
+        margin: 2em;
+        text-decoration: none;
+}
+
+.btn{
+     background:linear-gradient(to bottom ,#11cdd4 70%, #11999e);
+     border-radius: 10px;
+     color:#eeee;
+     display: block;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 1.3em;
+     font-weight: bold;
+     padding: 0.5em;
+     margin: 3em auto;
+     max-width: 7em;
+     min-height: 0.2em;
+     text-decoration: none;
+}
+
+.intro{
+    margin:auto;
+    width:30%;
+}
+
+.contact-message{
+    width:40%;
+    margin:2.5em auto 3.75em auto;
+}
+
+.copyright-text{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+}
+/*****PSEDO SELECTORS**/
+.profile > img{
+    position: relative;
+    bottom:1em;
+    border-radius: 100%;
+    border-color: black;
+    min-width:10em;
+    height: auto;
+}
+
+.bottom-container p{
+    font-size: 0.9em;
+    margin-bottom:0;
+    color:#EAF6F6;
+    position: relative;
+    top:5em;
+}
+
+.btn:hover {
+    background:linear-gradient(to bottom , #30e3cb 70%,#2bc4ad);
+}
+
+.footer-link:hover{
+    color:#EAF6F6;
+}
